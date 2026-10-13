@@ -1,0 +1,190 @@
+{
+  "random_split": {
+    "n": 8483,
+    "exact_star_accuracy": 0.665,
+    "within_one_star": 0.935,
+    "mean_abs_error_stars": 0.616,
+    "macro_f1": 0.509,
+    "polarity_accuracy": 0.845,
+    "confusion_matrix": [
+      [
+        218,
+        81,
+        51,
+        12,
+        23
+      ],
+      [
+        105,
+        148,
+        152,
+        46,
+        19
+      ],
+      [
+        65,
+        141,
+        399,
+        210,
+        63
+      ],
+      [
+        30,
+        43,
+        262,
+        798,
+        536
+      ],
+      [
+        55,
+        33,
+        112,
+        800,
+        4081
+      ]
+    ]
+  },
+  "unseen_category": {
+    "food": {
+      "n": 9519,
+      "exact_star_accuracy": 0.658,
+      "within_one_star": 0.892,
+      "mean_abs_error_stars": 0.833,
+      "macro_f1": 0.458,
+      "polarity_accuracy": 0.82,
+      "confusion_matrix": [
+        [
+          512,
+          99,
+          91,
+          66,
+          116
+        ],
+        [
+          124,
+          71,
+          190,
+          103,
+          62
+        ],
+        [
+          67,
+          58,
+          311,
+          249,
+          112
+        ],
+        [
+          44,
+          26,
+          188,
+          542,
+          556
+        ],
+        [
+          131,
+          38,
+          174,
+          765,
+          4824
+        ]
+      ]
+    },
+    "music_audio": {
+      "n": 10257,
+      "exact_star_accuracy": 0.613,
+      "within_one_star": 0.904,
+      "mean_abs_error_stars": 0.861,
+      "macro_f1": 0.402,
+      "polarity_accuracy": 0.842,
+      "confusion_matrix": [
+        [
+          134,
+          34,
+          21,
+          16,
+          12
+        ],
+        [
+          67,
+          42,
+          77,
+          45,
+          19
+        ],
+        [
+          85,
+          54,
+          268,
+          292,
+          72
+        ],
+        [
+          86,
+          52,
+          221,
+          1087,
+          636
+        ],
+        [
+          219,
+          114,
+          240,
+          1606,
+          4758
+        ]
+      ]
+    },
+    "clothing": {
+      "n": 22635,
+      "exact_star_accuracy": 0.591,
+      "within_one_star": 0.879,
+      "mean_abs_error_stars": 0.748,
+      "macro_f1": 0.411,
+      "polarity_accuracy": 0.768,
+      "confusion_matrix": [
+        [
+          405,
+          128,
+          151,
+          28,
+          109
+        ],
+        [
+          402,
+          283,
+          549,
+          115,
+          200
+        ],
+        [
+          358,
+          417,
+          1161,
+          414,
+          473
+        ],
+        [
+          139,
+          215,
+          1118,
+          1387,
+          2048
+        ],
+        [
+          140,
+          128,
+          693,
+          1427,
+          10147
+        ]
+      ]
+    }
+  },
+  "training_size": 42411,
+  "categories": {
+    "clothing": 22635,
+    "food": 9519,
+    "music_audio": 10257
+  }
+}

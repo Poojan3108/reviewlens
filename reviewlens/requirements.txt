@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+altair
+scikit-learn==1.8.0
+joblib
+tavily-python
+langchain-groq
+pydantic
+python-dotenv
